@@ -25,7 +25,7 @@ h1 {
     height: 586px;
     background-image: url(./images/bg_main.png);
     background-repeat: no-repeat;
-    background-size: auto, 100%;
+    background-size: cover;
     background-position: center;
     position: relative;
 }
@@ -33,14 +33,13 @@ h1 {
 .rec {
     background-color: white;
     padding: 40px;
-    width: 303px;
-    height: 226px;
     position: absolute;
     bottom: 80px;
     left: 0;
 }
 
 .rec p {
+    margin-top: 0;
     margin-bottom: 30px;
     font-size: 18px;
     display: block;
@@ -51,4 +50,32 @@ h1 {
     width: fit-content;
     margin: 0;
     font-weight: normal;
+}
+
+.dis h2 {
+    font-size: 36px;
+    padding: 25px 0 20px;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+.dis h2::before {
+    content: "KUMONが向き合うもの";
+    color: white;
+    font-size: 14px;
+    padding: 8px 15px;
+    background-color: #72C9F3;
+    display: block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.dis h2::after {
+    content: "";
+    width: 80px;
+    background-color: black;
+    height: 1px;
 }
