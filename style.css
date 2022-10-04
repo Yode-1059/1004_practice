@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Times New Roman",
+        "YuMincho",
+        "Hiragino Mincho ProN",
+        "Yu Mincho",
+        "MS PMincho",
+        serif;
+}
+
+header,
+main {
+    width: 86.4%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.top {
+    height: 586px;
+    background-image: url(./images/bg_main.png);
+    background-repeat: no-repeat;
+    background-size: auto, 100%;
+    background-position: center;
+    position: relative;
+}
+
+.rec {
+    background-color: white;
+    padding: 40px;
+    width: 303px;
+    height: 226px;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+}
+
+.rec p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    display: block;
+}
+
+.rec h2 {
+    font-size: 36px;
+    width: fit-content;
+    margin: 0;
+    font-weight: normal;
+}
